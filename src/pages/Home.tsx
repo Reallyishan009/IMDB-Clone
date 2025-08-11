@@ -27,6 +27,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       {popular.movies.length > 0 && (
         <HeroSection movie={popular.movies[0]} />
+        
       )}
 
       {/* Latest Movies */}
